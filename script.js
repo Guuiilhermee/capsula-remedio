@@ -62,9 +62,9 @@ function principal() {
         console.log(`O Volume da Esfera é: ${volEsfera.toFixed(2)} m³`)
         console.log(`O Volume da Cápsula é: ${volCapsula.toFixed(2)} m³`)
         console.log(`O Custo da Cápsula de remédio é: R$ ${custoCapsulaTotal.toFixed(2)}`)
-        resposta.innerHTML += `O Volume do Cilindro é: ${volCilindro.toFixed(2)} m³ <br>`
-        resposta.innerHTML += `O Volume da Esfera é: ${volEsfera.toFixed(2)} m³ <br>`
-        resposta.innerHTML += `O Volume da Cápsula é: ${volCapsula.toFixed(2)} m³ <br>`
+        resposta.innerHTML += `O Volume do Cilindro é: ${volCilindro.toFixed(2)} cm³ <br>`
+        resposta.innerHTML += `O Volume da Esfera é: ${volEsfera.toFixed(2)} cm³ <br>`
+        resposta.innerHTML += `O Volume da Cápsula é: ${volCapsula.toFixed(2)} cm³ <br>`
         resposta.innerHTML += `O Custo da Cápsula de remédio é: R$ ${custoCapsulaTotal.toFixed(2)} <br>`
     } else {
         console.log(`Tipo Inválido!`)
