@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"defer></script>
+    <title>Cápsulas de remédios</title>
+</head>
+<body>
+    <h1>Custo Cápsulas de remédios</h1>
+
+    <h2>Tanque</h2>
+    <label for="largura">Largura</label><br>
+    <input type="number" id="largura"><br><br>
+
+    <label for="alturaTan">Altura</label><br>
+    <input type="number" id="alturaTan"><br><br>
+    
+    <label for="comprimento">Comprimento</label><br>
+    <input type="number" id="comprimento"><br><br>
+
+    <h2>Capsula</h2>
+    <label for="raio">Raio</label><br>
+    <input type="number" id="raio"><br><br>
+
+    <label for="alturaCil">Altura</label><br>
+    <input type="number" id="alturaCil"><br><br>
+
+    <h2>Tipo</h2>
+    <label for="opcao">Tipo</label><br>
+    <select id="opcao">
+      <option value="tanque">Tanque</option>
+      <option value="capsula">Cápsula</option>
+    </select><br><br>
+
+    <button onclick="principal()">Calcular</button><br><br>
+    <div id="resposta"></div>
+</body>
+</html>
